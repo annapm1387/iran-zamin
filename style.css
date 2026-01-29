@@ -1717,6 +1717,12 @@ body.inner-page .bac {
 
 
 @media (max-width: 480px) {
+   .bac{
+     background-image:
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+        url('bacmobaile.jpg');
+    height: 740px;
+   }
     .hamburger {
         margin-left: 300px;
     }
@@ -1841,7 +1847,7 @@ body.inner-page .bac {
     .mahbob {
         display: block;
         text-align: center;
-        margin-top: 6rem;
+        margin-top: 12rem;
         margin-right: 1rem;
         margin-left: 1rem;
         margin-bottom: 20px;
